@@ -1,6 +1,6 @@
 ---
 title: Shirone Markdown Enhancements
-published: 2026-08-19
+published: 2026-06-15
 pinned: true
 description: Explore Shirone's custom Markdown extensions, expressive components, and authoring syntax.
 tags: [Demo, Markdown, Extensions, Theme, Shirone]

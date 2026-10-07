@@ -1,6 +1,6 @@
 ---
 title: Markdown Admonitions
-published: 2026-08-27
+published: 2026-06-15
 description: Present notes, warnings, and optional details with Shirone's M3E Markdown containers.
 tags: [Demo, Markdown, Admonition, Shirone]
 category: Guides

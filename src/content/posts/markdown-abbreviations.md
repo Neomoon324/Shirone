@@ -1,6 +1,6 @@
 ---
 title: Markdown Abbreviations
-published: 2026-08-28
+published: 2026-06-15
 description: Define common acronyms once and keep their full meaning available in normal article text.
 tags: [Demo, Markdown, Typography, Shirone]
 category: Guides

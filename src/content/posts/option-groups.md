@@ -1,6 +1,6 @@
 ---
 title: Markdown Option Groups
-published: 2026-08-28
+published: 2026-06-15
 description: Present related Markdown alternatives in compact, synchronized M3E option groups.
 tags: [Demo, Markdown, Tabs, Shirone]
 category: Guides

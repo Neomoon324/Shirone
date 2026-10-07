@@ -1,6 +1,6 @@
 ---
 title: "Audio Reader: Japanese Anime Mystery Voices"
-published: 2026-08-29
+published: 2026-06-15
 description: A small collection of mysterious Japanese anime voice fragments, played on demand with Audio Reader.
 tags: [Example, Audio Reader]
 series: media-embeds

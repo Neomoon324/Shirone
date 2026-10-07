@@ -1,6 +1,6 @@
 ---
 title: Markdown Steps
-published: 2026-08-27
+published: 2026-06-15
 description: Present sequential instructions as a compact, accessible step flow in Shirone.
 tags: [Demo, Markdown, Steps, Shirone]
 category: Guides
