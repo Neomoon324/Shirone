@@ -1,6 +1,6 @@
 ---
-title: 博客迁移
-published: 2026-08-21
+title: 博客迁移至Shirone
+published: 2026-10-07
 description: 刚刚将博客迁移完毕，切换为了**shirone**，一个更加美观的Material You风格模板
 tags:
   - 博客
