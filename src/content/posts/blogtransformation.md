@@ -4,7 +4,7 @@ published: 2026-10-07
 description: 刚刚将博客迁移完毕，切换为了**shirone**，一个更加美观的Material You风格模板
 tags:
   - 博客
-category: 日常
+category: 博客
 draft: false
 lang: ""
 ---
