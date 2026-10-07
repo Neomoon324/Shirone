@@ -125,7 +125,7 @@ export const LinkPresets: Record<string, NavBarLink> = {
 	About: {
 		name: i18n(I18nKey.about),
 		url: "/about/",
-		icon: "material-symbols:info-outline-rounded",
+		icon: "material-symbols:person-outline-rounded",
 		pageKey: "about",
 	},
 	GitHub: {
@@ -140,28 +140,21 @@ export const LinkPresets: Record<string, NavBarLink> = {
 const defaultNavBarConfig: NavBarConfig = {
 	links: [
 		LinkPresets.Home,
-		LinkPresets.Archive,
-		LinkPresets.Friends,
-		LinkPresets.Moments,
-		LinkPresets.Anime,
-		LinkPresets.Compass,
-		LinkPresets.Albums,
 		{
-			name: i18n(I18nKey.more),
-			icon: "material-symbols:apps-rounded",
-			children: [
-				LinkPresets.Timeline,
-				LinkPresets.Projects,
-				LinkPresets.Devices,
-				LinkPresets.Games,
-				LinkPresets.Skills,
-				// 分类/标签入口不进导航菜单（避免菜单项过多），预设已登记指向独立页面，
-				// 需要时取消注释即可
-				// LinkPresets.Categories,
-				// LinkPresets.Tags,
-				LinkPresets.About,
-			],
+			// 归档 + 动态合并为「文章」下拉。本站为 zh_CN，Shirone 无对应 i18n 键，故直接写名称。
+			name: "文章",
+			icon: "material-symbols:article-outline-rounded",
+			children: [LinkPresets.Archive, LinkPresets.Moments],
 		},
+		LinkPresets.Friends,
+		{
+			// 番剧 + 游戏 + 技能合并为「我的」；图标沿用旧站「关于我」的安卓机器人。
+			name: "我的",
+			icon: "material-symbols:android",
+			children: [LinkPresets.Anime, LinkPresets.Games, LinkPresets.Skills],
+		},
+		LinkPresets.Compass,
+		LinkPresets.About,
 	],
 };
 
