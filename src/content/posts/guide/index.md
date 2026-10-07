@@ -2,7 +2,7 @@
 title: "Shirone Authoring & Usage Guide"
 published: 2026-06-15
 updated: 2026-06-15
-pinned: true
+pinned: false
 description: "A comprehensive guide to post authoring, frontmatter schema, Markdown extensions, encryption, and media in Shirone."
 image: "./cover.jpeg"
 tags: ["Shirone", "Guide", "Markdown", "M3E", "Blogging"]
