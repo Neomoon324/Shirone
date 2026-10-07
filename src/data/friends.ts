@@ -18,6 +18,39 @@ export interface FriendItem {
 export const friendsData: FriendItem[] = [
 	{
 		id: 1,
+		title: "夏夜流萤",
+		imgurl:
+			"https://weavatar.com/avatar/d252655d40d6874417a720bad0a6c5f77f8f6a1fd2f882f8f338402dc37e4190?s=640",
+		desc: "飞萤之火自无梦的长夜亮起，绽放在终竟的明天。",
+		siteurl: "https://blog.cuteleaf.cn",
+		tags: ["Blog"],
+	},
+	{
+		id: 2,
+		title: "Firefly Docs",
+		imgurl: "https://docs-firefly.cuteleaf.cn/logo.png",
+		desc: "Firefly主题模板文档",
+		siteurl: "https://docs-firefly.cuteleaf.cn",
+		tags: ["Docs"],
+	},
+	{
+		id: 3,
+		title: "大学生活质量指北",
+		imgurl: "https://cn.colleges.chat/assets/images/favicon.webp",
+		desc: "关于大学生活质量的一切",
+		siteurl: "https://cn.colleges.chat",
+		tags: ["Docs"],
+	},
+	{
+		id: 4,
+		title: "Astro",
+		imgurl: "https://avatars.githubusercontent.com/u/44914786?v=4&s=640",
+		desc: "The web framework for content-driven websites. ⭐️ Star to support our work!",
+		siteurl: "https://github.com/withastro/astro",
+		tags: ["Framework"],
+	},
+	{
+		id: 5,
 		title: "Mizuki",
 		imgurl: "https://avatars.githubusercontent.com/u/225602409?v=4&s=640",
 		desc: "Another Fuwari-based blog theme with docs",
@@ -25,15 +58,7 @@ export const friendsData: FriendItem[] = [
 		tags: ["Blog", "Theme"],
 	},
 	{
-		id: 2,
-		title: "Astro",
-		imgurl: "https://avatars.githubusercontent.com/u/44914786?v=4&s=640",
-		desc: "The web framework for content-driven websites",
-		siteurl: "https://astro.build",
-		tags: ["Framework"],
-	},
-	{
-		id: 3,
+		id: 6,
 		title: "Material 3",
 		imgurl: "https://avatars.githubusercontent.com/u/19478152?v=4&s=640",
 		desc: "Material Design 3 — the next generation of Material Design",
