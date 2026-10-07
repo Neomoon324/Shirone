@@ -13,7 +13,7 @@ export const siteConfig: SiteConfig = withUserConfig("site", {
 	site: "https://blog.krkrsora.top/",
 	base: "/",
 	title: "krkrSoraの部屋",
-	subtitle: "",
+	subtitle: "Neverland",
 	// 电脑端顶栏标题与导航内容区域："left" 左对齐，"center" 居中。
 	topAppBar: {
 		contentAlign: "center",
