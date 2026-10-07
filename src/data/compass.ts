@@ -37,35 +37,87 @@ export interface CompassShelf {
 
 export const compassData: CompassShelf[] = [
 	{
+		key: "tools",
+		name: "工具",
+		icon: "material-symbols:build-outline-rounded",
+		blurb: "实用工具与在线服务",
+		entries: [
+			{
+				label: "Squoosh",
+				href: "https://squoosh.app",
+				note: "谷歌出品的图片压缩与格式转换工具",
+			},
+			{
+				label: "TinyPNG",
+				href: "https://tinypng.com",
+				note: "在线压缩PNG/JPEG图片",
+				icon: "material-symbols:file-png",
+			},
+			{
+				label: "Crx搜搜",
+				href: "https://www.crxsoso.com",
+				note: "Chrome 扩展商店搜索",
+				icon: "fa7-brands:chrome",
+			},
+			{
+				label: "OpenYYY",
+				href: "https://www.openyyy.com",
+				note: "多种云音乐格式转MP3",
+				icon: "material-symbols:music-note",
+			},
+		],
+	},
+	{
+		key: "reads",
+		name: "资源",
+		icon: "material-symbols:auto-stories-outline-rounded",
+		blurb: "文档，教程与阅读",
+		entries: [
+			{
+				label: "Z-library",
+				href: "https://zh.101f.by",
+				note: "全球最大的图书共享平台",
+				icon: "material-symbols:book-2",
+			},
+			{
+				label: "Solidot",
+				href: "https://www.solidot.org",
+				note: "科技与文化新闻",
+				icon: "material-symbols:public-rounded",
+			},
+		],
+	},
+	{
 		key: "dev",
-		name: "Development",
+		name: "开发",
 		icon: "material-symbols:code-rounded",
-		blurb: "Sites I keep open while writing code",
+		blurb: "好用的开发网站和项目",
 		entries: [
 			{
 				label: "GitHub",
 				href: "https://github.com",
-				note: "Code hosting & collaboration",
+				note: "全球最大的代码托管平台",
 				icon: "fa7-brands:github",
 			},
 			{
 				label: "MDN",
 				href: "https://developer.mozilla.org",
-				note: "Authoritative web docs",
+				note: "最权威的 Web 技术文档",
 				icon: "material-symbols:menu-book-rounded",
 			},
 			{
 				label: "Stack Overflow",
 				href: "https://stackoverflow.com",
 				note: "Q&A and debugging",
+				icon: "fa7-brands:stack-overflow",
 			},
 		],
 	},
 	{
 		key: "design",
-		name: "Design",
+		name: "设计",
 		icon: "material-symbols:palette-outline-rounded",
-		blurb: "Colors, icons and inspiration",
+		blurb: "配色，图标与灵感来源",
 		entries: [
 			{
 				label: "Iconify",
@@ -82,37 +134,7 @@ export const compassData: CompassShelf[] = [
 				label: "Excalidraw",
 				href: "https://excalidraw.com",
 				note: "Hand-drawn whiteboard collaboration",
-			},
-		],
-	},
-	{
-		key: "tools",
-		name: "Tools",
-		icon: "material-symbols:build-outline-rounded",
-		entries: [
-			{
-				label: "Squoosh",
-				href: "https://squoosh.app",
-				note: "Image compression & conversion",
-			},
-			{
-				label: "Regex101",
-				href: "https://regex101.com",
-				note: "Regex testing & debugging",
-			},
-		],
-	},
-	{
-		key: "reads",
-		name: "Reading",
-		icon: "material-symbols:auto-stories-outline-rounded",
-		entries: [
-			{ label: "Hacker News", href: "https://news.ycombinator.com" },
-			{ label: "V2EX", href: "https://www.v2ex.com" },
-			{
-				label: "Solidot",
-				href: "https://www.solidot.org",
-				note: "Tech and culture news",
+				icon: "material-symbols:draw-outline",
 			},
 		],
 	},

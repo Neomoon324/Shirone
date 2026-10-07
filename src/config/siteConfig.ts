@@ -47,7 +47,7 @@ export const siteConfig: SiteConfig = withUserConfig("site", {
 	// 页面背景纹理系统配置（5 大精美预设 + 零开销 HCT 动态取色）
 	texture: {
 		enable: true, // 是否启用背景纹理系统
-		defaultPreset: "starlight", // 默认纹理预设："none" | "starlight" | "cyber-dots" | "topography" | "geometric" | "sakura"
+		defaultPreset: "sakura", // 默认纹理预设："none" | "starlight" | "cyber-dots" | "topography" | "geometric" | "sakura"
 		defaultOpacity: 0.12, // 默认纹理浓度 (0.05 ~ 0.25)
 		allowMotion: true, // 是否允许背景微动效（开启 reduced-motion 时自动静止）
 	},
@@ -70,7 +70,7 @@ export const siteConfig: SiteConfig = withUserConfig("site", {
 		homeText: {
 			// 仅在首页 Banner 中显示，标题与副标题会上下居中排列。
 			enable: true,
-			title: "krkrSoraの部屋",
+			title: "krkr_Sora",
 			subtitle: [
 				"特別なことはないけど、君がいると十分です",
 				"今でもあなたは私の光",
