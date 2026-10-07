@@ -1,7 +1,7 @@
 ---
 title: 博客迁移至Shirone
 published: 2026-10-07
-description: 刚刚将博客迁移完毕，切换为了**shirone**，一个更加美观的Material You风格模板
+description: 刚刚将博客迁移完毕，切换为 shirone，一个更加美观的Material You风格模板
 tags:
   - 博客
 category: 博客
@@ -9,7 +9,7 @@ draft: false
 lang: ""
 ---
 
-Shirone 是一个基于 ==M3E 规范==、富有表现力的现代化个人静态博客主题。
+Shirone 是一个基于 **M3E 规范**、富有表现力的现代化个人静态博客主题。
 
 # 符合Android设计语言的界面
 
@@ -20,12 +20,12 @@ Shirone 是一个基于 ==M3E 规范==、富有表现力的现代化个人静�
 Material Design一经推出便引起广大开发者的注意，它是一种设计风格极其独特，极具吸引力的设计语言。在我心目中，它可与Microsoft的**Metro**相媲美。
 
 Material Design：
-![[Pasted image 20261007151322.png]]
+![](./Pasted%20image%2020261007151322.png)
 
 Material3E便是这一设计语言的最新版本，M3E在前代的基础上更加追求简洁化，也开始使用高斯模糊和更多地引入圆角，减少了浓重色调的使用。然而，独特的调色板仍是它的一大特色。
 
 Material3E：
-![[Pasted image 20261007151459.png]]
+![](./Pasted%20image%2020261007151459.png)
 
 Material Design支持用户自定义自己的调色板风格，shirone也具有这一特点。
 
