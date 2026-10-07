@@ -1,0 +1,17 @@
+/**
+ * Cloudflare Workers 静态资源部署配置
+ *
+ * Shirone 产出的是纯静态站点（`pnpm build` → `dist/`），因此这里只声明静态资源目录，
+ * 不指定 `main` 脚本，部署出来的就是一个只提供静态文件的 Worker。
+ *
+ * 配合 Cloudflare 构建流水线：
+ *   构建命令：pnpm anime:sync --provider bilibili && pnpm build
+ *   部署命令：npx wrangler deploy
+ */
+{
+	"name": "krkrsora",
+	"compatibility_date": "2026-10-01",
+	"assets": {
+		"directory": "./dist"
+	}
+}
