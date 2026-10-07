@@ -125,7 +125,7 @@ export const LinkPresets: Record<string, NavBarLink> = {
 	About: {
 		name: i18n(I18nKey.about),
 		url: "/about/",
-		icon: "material-symbols:person-outline-rounded",
+		icon: "material-symbols:info-outline-rounded",
 		pageKey: "about",
 	},
 	GitHub: {
@@ -147,13 +147,13 @@ const defaultNavBarConfig: NavBarConfig = {
 			children: [LinkPresets.Archive, LinkPresets.Moments],
 		},
 		LinkPresets.Friends,
+		LinkPresets.Compass,
 		{
 			// 番剧 + 游戏 + 技能合并为「我的」；图标沿用旧站「关于我」的安卓机器人。
 			name: "我的",
 			icon: "material-symbols:android",
 			children: [LinkPresets.Anime, LinkPresets.Games, LinkPresets.Skills],
 		},
-		LinkPresets.Compass,
 		LinkPresets.About,
 	],
 };
