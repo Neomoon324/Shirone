@@ -160,7 +160,6 @@ const defaultNavBarConfig: NavBarConfig = {
 				// LinkPresets.Categories,
 				// LinkPresets.Tags,
 				LinkPresets.About,
-				LinkPresets.GitHub,
 			],
 		},
 	],

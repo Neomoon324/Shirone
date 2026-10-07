@@ -31,7 +31,7 @@ export const siteConfig: SiteConfig = withUserConfig("site", {
 	// IANA time zone for precise post and moment timestamps. It is independent of lang.
 	timeZone: "Asia/Shanghai",
 	themeColor: {
-		hue: 315, // Default hue 0-360. 站点设计默认粉紫（偏二次元）；262 紫 / 345 粉 也可选
+		hue: 285, // Default hue 0-360. 站点设计默认粉紫（偏二次元）；262 紫 / 345 粉 也可选
 		fixed: false, // Hide the theme color picker for visitors
 		// Dynamic Material 3 palette style (TonalSpot/Vibrant/Content/Expressive/Rainbow/FruitSalad/Monochrome/Neutral/Fidelity)
 		style: "tonalSpot",
@@ -121,7 +121,10 @@ export const siteConfig: SiteConfig = withUserConfig("site", {
 	},
 	favicon: [
 		// 浏览器标签页图标，路径相对于 public 目录。
-		{ src: "/logo/icon.webp" },
+		{ src: "/favicon/dragon-32.png", sizes: "32x32" },
+		{ src: "/favicon/dragon-128.png", sizes: "128x128" },
+		{ src: "/favicon/dragon-180.png", sizes: "180x180" },
+		{ src: "/favicon/dragon-192.png", sizes: "192x192" },
 	],
 });
 
