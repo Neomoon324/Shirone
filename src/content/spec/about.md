@@ -4,11 +4,11 @@
 
 # ✦ About/关于本站
 
-这个网站使用 **Astro** 框架构建，采用了 [shirone](https://github.com/LyraVoid/Shirone) **shinore** 是基于 [Fuwari](https://github.com/saicaca/fuwari) 的二次开发。
+这个网站使用 **Astro** 框架构建，采用了 [shirone](https://github.com/LyraVoid/Shirone) 模板，**shinore** 是基于 [Fuwari](https://github.com/saicaca/fuwari) 的二次开发。
 
-**🖥️在线预览： [Firefly - Demo site](https://shirone.mysqil.com/)**
+**🖥️在线预览： [shirone](https://shirone.mysqil.com/)**
 
-**📝使用文档： [https://docs.shirone.mysqil.com/](https://docs.shirone.mysqil.com/)**
+**📝使用文档： [Shirone Docs](https://docs.shirone.mysqil.com/)**
 
 ::github{repo="LyraVoid/Shirone"}
 ::github{repo="saicaca/fuwari"}
