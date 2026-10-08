@@ -4,9 +4,9 @@
 
 # ✦ About/关于本站
 
-这个网站使用 **Astro** 框架构建，采用了 [shirone](https://github.com/LyraVoid/Shirone) 模板，**shinore** 是基于 [Fuwari](https://github.com/saicaca/fuwari) 的二次开发。
+这个网站使用 **Astro** 框架构建，采用了 [Shirone](https://github.com/LyraVoid/Shirone) 模板，**Shinore** 是基于 [Fuwari](https://github.com/saicaca/fuwari) 的二次开发。
 
-**🖥️在线预览： [shirone](https://shirone.mysqil.com/)**
+**🖥️在线预览： [Shirone](https://shirone.mysqil.com/)**
 
 **📝使用文档： [Shirone Docs](https://docs.shirone.mysqil.com/)**
 
